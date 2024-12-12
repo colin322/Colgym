@@ -1,0 +1,15 @@
+{
+  "name": "beep",
+  "version": "1.0.0",
+  "description": "Back End Eindproject",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --minify"
+  },
+  "author": "Colin Falkenburg",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
